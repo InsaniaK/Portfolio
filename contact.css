@@ -1,0 +1,91 @@
+*{
+	background-color: #f6f6f6;
+	font-family:Calibri;
+
+}
+
+#navDiv{
+	display: block;
+	width:147px;
+	top:20%;
+	left:23.5%;
+	position:absolute;
+}
+
+#arrowText{
+	font-weight: bold;
+	position: absolute;
+	top:15%;
+	left:17.5%;
+	font-size:75%;
+
+}
+
+.navButton {
+	-moz-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:45px;
+	line-height:41px;
+	width:145px;
+	text-decoration:none;
+	text-align:center;
+	display:inline-block;
+}
+.navButton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}
+.navButton:active {
+	position:relative;
+	left:1px;
+}
+
+#content {
+	left:31.2%;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	color:#010101;
+	padding: 10px;
+	border-radius: 2px;
+	width:700px;
+	height:700px;
+	font-size: 115%;
+	margin-top: 6%;
+}
+
+h2 {
+	position: absolute;
+	left:33%;
+	top:5%;
+	border-bottom: 1px solid;
+	font-size: 155%;
+}
